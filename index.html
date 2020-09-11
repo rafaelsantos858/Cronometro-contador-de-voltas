@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+<section>
+    <div id="cronometro">
+        <span id="hora">00:</span><span id="minuto">00:</span><span id="segundo">00</span><br>
+    </div>
+    
+    <div id="div1">
+        <div ><input id="comeca" class="btn" type="button" value="Iniciar" onclick="tempo();"><br></div>
+        <div id="parar"><input id="para" type="button" class="btn" value="Stop" onclick="parar();"></div>
+        <input class="btn" type="button" value="Lap" onclick="volta();"><br>
+        
+       
+        <input id="lap" type="button" class="btn" value="Limpa" onclick="limpa();"><br><br>
+    </div>
+    
+</section>
+<div id="voltas"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
